@@ -15,8 +15,11 @@ body {
   text-align: right;
 }
 
-#start {
-  display: none;
+.textInici {
+  text-align: center;
+  width: 50%;
+  float: right;
+  padding-right: 1px;
 }
 
 .boton_personalizado {

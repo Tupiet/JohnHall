@@ -34,6 +34,6 @@ body {
   color: rgb(214, 39, 39);
   background-color: #ffffff;
   background-image: none;
-  cursor pointer;
+  cursor: pointer;
   transition: 0.3s;
 }

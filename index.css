@@ -86,3 +86,14 @@ li a:hover:not(.active) {
 .active:hover {
   background-color: #732D00;
 }
+
+.cloudImage {
+  width: 35%;
+  float: left;
+  text-align: center;
+}
+
+.cloudImage:hover {
+  transition: 3s;
+  opacity: 50%;
+}

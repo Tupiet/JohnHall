@@ -54,7 +54,7 @@ li a:hover:not(.active) {
 /* Classes and ID */
 .textInici {
   text-align: center;
-  width: 70%;
+  width: 60%;
   float: right;
   padding-right: 5px;
 }

@@ -91,6 +91,8 @@ li a:hover:not(.active) {
   width: 35%;
   float: left;
   text-align: center;
+  transition: 3s;
+  opacity: 100%;
 }
 
 .cloudImage:hover {

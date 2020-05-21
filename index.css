@@ -73,3 +73,11 @@ li a:hover:not(.active) {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.active {
+  background-color: #B04500;
+}
+
+.active:hover {
+  background-color: #732D00;
+}

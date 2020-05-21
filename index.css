@@ -97,5 +97,5 @@ li a:hover:not(.active) {
 
 .cloudImage:hover {
   transition: 3s;
-  opacity: 30%;
+  opacity: 10%;
 }

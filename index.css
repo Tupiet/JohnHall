@@ -6,12 +6,13 @@ p {
 h1 {
   font-family: 'Space Mono', monospace;
   padding-top: 40px;
+  text-align: center;
 }
 
 body {
   background-color: rgb(255, 253, 233);
   padding-left: 10px;
-  text-align: center;
+  text-align: right;
 }
 
 #start {

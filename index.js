@@ -1,15 +1,8 @@
-function displayStart() {
-  var initDiv = document.getElementById("welcome");
-  var startDiv = document.getElementById("start");
+function logIn() {
+  var username = document.getElementById("username");
+  var password = document.getElementById("password");
 
-  initDiv.style.display = "none";
-  startDiv.style.display = "inline";
-}
-
-function finalPassword() {
-  var inputEnter = document.getElementById("finalTextPass");
-  
-  if (inputEnter.value == "Hola") {
+  if (username.value == "John Hall" && password == "Hoola") {
     alert("¡Bien!");
   }
 }

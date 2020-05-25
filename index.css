@@ -45,7 +45,7 @@ li a:hover {
   transition: 1s;
 }
 
-li a:hover:not(.active) {
+li a:not(hover:not(.active)) {
   background-color: #111;
   border-radius: 10px;
 }

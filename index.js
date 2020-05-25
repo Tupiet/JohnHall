@@ -3,6 +3,6 @@ function logIn() {
   var password = document.getElementById("password");
 
   if (username.value == "John Hall" && password.value == "Hoola") {
-    alert("¡Bien!");
+    window.open("../");
   }
 }

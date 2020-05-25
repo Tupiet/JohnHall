@@ -85,7 +85,3 @@ li a:not(hover) {
 .active:hover {
   background-color: #732D00;
 }
-
-.active:not(hover) {
-  transition: 0.3s;
-}

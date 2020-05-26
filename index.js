@@ -7,19 +7,43 @@ function logIn() {
   }
 }
 
-function selectPin() {
+function selectPin1() {
   var one = document.getElementById("buttonOne");
+  var text = document.getElementById("textPass");
+
+  if (text.value == "") {
+    text.value = "1";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin2() {
   var two = document.getElementById("buttonTwo");
+  var text = document.getElementById("textPass");
+
+  if (text.value == "1") {
+    text.value = "12";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin3() {
   var three = document.getElementById("buttonThree");
   var text = document.getElementById("textPass");
 
-  text.value = "1";
+  if (text.value == "12") {
+    text.value = "123";
+  } else {
+    text.value = "";
+  }
 }
 
 function verifyPinPersonal() {
   var text = document.getElementById("textPass");
 
-  if (text.value == "1") {
-    document.write("<p>Holaa</p>")
+  if (text.value == "123") {
+    alert("Bieeen!");
   }
 }

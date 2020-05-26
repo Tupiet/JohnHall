@@ -7,6 +7,15 @@ function logIn() {
   }
 }
 
+function selectPin() {
+  var one = document.getElementById("buttonOne");
+  var two = document.getElementById("buttonTwo");
+  var three = document.getElementById("buttonThree");
+  var text = document.getElementById("textPass");
+
+
+}
+
 function verifyPinPersonal() {
   alert("Hola");
 }

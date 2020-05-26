@@ -13,13 +13,14 @@ function selectPin() {
   var three = document.getElementById("buttonThree");
   var text = document.getElementById("textPass");
 
-  text = "1";
-}
-
-function verifyPinPersonal() {
-  var text = document.getElementById("textPass");
-
-  if (text.value == "1") {
-    alert("Hola");
+  if (this.id == "buttonOne") {
+    text.value = "1";
   }
-}
+
+  function verifyPinPersonal() {
+    var text = document.getElementById("textPass");
+
+    if (text.value == "1") {
+      alert("Hola");
+    }
+  }

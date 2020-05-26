@@ -20,6 +20,6 @@ function verifyPinPersonal() {
   var text = document.getElementById("textPass");
 
   if (text.value == "1") {
-    alert("Hola");
+    document.write("<p>Holaa</p>")
   }
 }

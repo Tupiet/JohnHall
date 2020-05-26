@@ -13,7 +13,7 @@ function selectPin() {
   var three = document.getElementById("buttonThree");
   var text = document.getElementById("textPass");
 
-  text.value = "1";
+  text = "1";
 }
 
 function verifyPinPersonal() {

@@ -13,9 +13,13 @@ function selectPin() {
   var three = document.getElementById("buttonThree");
   var text = document.getElementById("textPass");
 
-
+  text.value = "1";
 }
 
 function verifyPinPersonal() {
-  alert("Hola");
+  var text = document.getElementById("textPass");
+
+  if (text.value == "1") {
+    alert("Hola");
+  }
 }

@@ -6,3 +6,7 @@ function logIn() {
     window.open("../miarea");
   }
 }
+
+function verifyPinPersonal() {
+
+}

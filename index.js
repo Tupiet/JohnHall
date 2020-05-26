@@ -8,5 +8,5 @@ function logIn() {
 }
 
 function verifyPinPersonal() {
-
+  alert("Hola");
 }

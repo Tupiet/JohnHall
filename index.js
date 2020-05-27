@@ -41,7 +41,7 @@ function verifyPinPersonal() {
   var closed = document.getElementById("closed");
 
   if (text.value == "132") {
-    alert(text.value);
+    alert("¡Pin correcto!\nAcceso a archivos privados concedido.");
     closed.style.display = "inline";
   }
 }

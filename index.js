@@ -11,11 +11,7 @@ function selectPin1() {
   var one = document.getElementById("buttonOne");
   var text = document.getElementById("textPass");
 
-  if (text.value == "") {
-    text.value = "1";
-  } else {
-    text.value = "";
-  }
+  text.value = "1";
 }
 
 function selectPin2() {

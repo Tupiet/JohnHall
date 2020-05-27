@@ -22,8 +22,8 @@ function selectPin2() {
   var two = document.getElementById("buttonTwo");
   var text = document.getElementById("textPass");
 
-  if (text.value == "1") {
-    text.value = "12";
+  if (text.value == "13") {
+    text.value = "132";
   } else {
     text.value = "";
   }
@@ -33,8 +33,8 @@ function selectPin3() {
   var three = document.getElementById("buttonThree");
   var text = document.getElementById("textPass");
 
-  if (text.value == "12") {
-    text.value = "123";
+  if (text.value == "1") {
+    text.value = "13";
   } else {
     text.value = "";
   }
@@ -43,7 +43,7 @@ function selectPin3() {
 function verifyPinPersonal() {
   var text = document.getElementById("textPass");
 
-  if (text.value == "123") {
+  if (text.value == "132") {
     alert("Bieeen!");
   }
 }

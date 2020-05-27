@@ -58,6 +58,12 @@ li a:not(hover) {
   display: none;
 }
 
+#open {
+  border-style: dotted;
+  border-radius: 5px;
+  background-color: rgb(128, 107, 97);
+}
+
 .boton_personalizado {
   text-decoration: none;
   padding: 10px;

@@ -45,6 +45,7 @@ function verifyPinPersonal() {
   var closed = document.getElementById("closed");
 
   if (text.value == "132") {
+    alert(text.value);
     closed.display.display = block;
   }
 }

@@ -44,6 +44,6 @@ function verifyPinPersonal() {
   if (text.value == "132") {
     alert("¡Pin correcto!\nAcceso a archivos privados concedido.");
     pincode.style.display = "none";
-    closed.style.display = "inline";
+    closed.style.display = "block";
   }
 }

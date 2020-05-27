@@ -54,7 +54,7 @@ li a:not(hover) {
   transition: 1s;
 }
 
-#start {
+#closed {
   display: none;
 }
 

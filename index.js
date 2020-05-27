@@ -38,11 +38,13 @@ function selectPin3() {
 
 function verifyPinPersonal() {
   var text = document.getElementById("textPass");
+  var initial = document.getElementById("initial");
   var pincode = document.getElementById("pincode");
   var closed = document.getElementById("closed");
 
   if (text.value == "132") {
     alert("¡Pin correcto!\nAcceso a archivos privados concedido.");
+    initial.style.display = "none";
     pincode.style.display = "none";
     closed.style.display = "block";
   }

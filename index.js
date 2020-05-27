@@ -42,8 +42,9 @@ function selectPin3() {
 
 function verifyPinPersonal() {
   var text = document.getElementById("textPass");
+  var closed = document.getElementById("closed");
 
   if (text.value == "132") {
-    alert("Bieeen!");
+    closed.display.display = block;
   }
 }

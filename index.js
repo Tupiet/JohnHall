@@ -46,6 +46,6 @@ function verifyPinPersonal() {
 
   if (text.value == "132") {
     alert(text.value);
-    closed.display.display = block;
+    closed.style.display = "inline";
   }
 }

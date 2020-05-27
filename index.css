@@ -65,6 +65,7 @@ li a:not(hover) {
   margin: auto;
   width: 30%;
   color: white;
+  border-color: black;
 }
 
 .boton_personalizado {

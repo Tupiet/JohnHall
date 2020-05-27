@@ -62,7 +62,7 @@ li a:not(hover) {
   border-style: dotted;
   border-radius: 5px;
   background-color: rgb(128, 107, 97);
-  width: auto;
+  width: inherit;
 }
 
 .boton_personalizado {

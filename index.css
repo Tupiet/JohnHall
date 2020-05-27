@@ -63,6 +63,7 @@ li a:not(hover) {
   border-radius: 5px;
   background-color: rgb(128, 107, 97);
   width: 30%;
+  display: block;
   float: center;
 }
 

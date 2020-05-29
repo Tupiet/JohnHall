@@ -11,8 +11,98 @@ function logIn() {
 }
 
 function selectPin0() {
-  var number = document.getElementById("buttonOne");
-  var text = document.getElementById("textPass");
+  var text = document.getElementById("pinIntroduce");
 
   text.value = "0";
+}
+
+function selectPin4() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "0") {
+    text.value = "04";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin5() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "04") {
+    text.value = "045";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin3() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "045") {
+    text.value = "0453";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin7() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "0453") {
+    text.value = "04537";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin6() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "04537") {
+    text.value = "045376";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin2() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "045376") {
+    text.value = "0453762";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin1() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "0453762") {
+    text.value = "04537621";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin9() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "04537621") {
+    text.value = "045376219";
+  } else {
+    text.value = "";
+  }
+}
+
+function selectPin8() {
+  var text = document.getElementById("pinIntroduce");
+
+  if (text.value == "045376219") {
+    text.value = "0453762198";
+    alarm("Hoola");
+  } else {
+    text.value = "";
+  }
 }

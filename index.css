@@ -103,3 +103,7 @@ li a:hover:not(.active) {
 #pinIntroduce {
   display: none;
 }
+
+#cloud {
+  display: none;
+}

@@ -10,10 +10,9 @@ function logIn() {
   }
 }
 
-function finalPassword() {
-  var inputEnter = document.getElementById("finalTextPass");
+function selectPin0() {
+  var number = document.getElementById("buttonOne");
+  var text = document.getElementById("textPass");
 
-  if (inputEnter.value == "Hola") {
-    alert("¡Bien!");
-  }
+  text.value = "0";
 }

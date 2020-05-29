@@ -5,7 +5,8 @@ function logIn() {
   var pin = document.getElementById("pinIntroduce");
 
   if (username.value == "John Hall" && password.value == "34105") {
-
+    start.style.display = "none";
+    pinIntroduce.style.display = "block";
   }
 }
 

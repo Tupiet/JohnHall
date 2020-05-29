@@ -98,9 +98,12 @@ function selectPin9() {
 
 function selectPin8() {
   var text = document.getElementById("pinIntroduce");
+  var cloud = document.getElementById("cloud");
 
   if (text.value == "045376219") {
     text.value = "0453762198";
+    text.style.display = "none";
+    cloud.style.display = "inline";
     alert("Hoola");
   } else {
     text.value = "";

@@ -100,6 +100,6 @@ li a:hover:not(.active) {
   opacity: 50%;
 }
 
-.pinIntroduce {
+#pinIntroduce {
   display: none;
 }

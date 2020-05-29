@@ -1,14 +1,15 @@
-function displayStart() {
-  var initDiv = document.getElementById("welcome");
-  var startDiv = document.getElementById("start");
+function logIn() {
+  var username = document.getElementById("username");
+  var password = document.getElementById("password");
 
-  initDiv.style.display = "none";
-  startDiv.style.display = "inline";
+  if (username.value == "John Hall" && password.value == "34105") {
+    window.open("../miarea");
+  }
 }
 
 function finalPassword() {
   var inputEnter = document.getElementById("finalTextPass");
-  
+
   if (inputEnter.value == "Hola") {
     alert("¡Bien!");
   }

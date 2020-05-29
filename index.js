@@ -4,7 +4,7 @@ function logIn() {
   var start = document.getElementById("start");
   var pin = document.getElementById("pinIntroduce");
 
-  if (username.value == "John Hall" && password.value == "34105") {
+  if (username.value == "John Hall" && password.value == "TengoLaBancaAMiPoder") {
     start.style.display = "none";
     pinIntroduce.style.display = "block";
   }

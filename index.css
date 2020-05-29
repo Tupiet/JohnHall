@@ -99,3 +99,7 @@ li a:hover:not(.active) {
   transition: 3s;
   opacity: 50%;
 }
+
+.pinIntroduce {
+  display: none;
+}

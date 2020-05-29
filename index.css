@@ -102,13 +102,17 @@ li a:hover:not(.active) {
 
 .tooltiptext {
   visibility: hidden;
-  position: relative;
+  position: absolute;
   background-color: rgb(55, 55, 55);
   border-radius: 5px;
 }
 
+.tooltip {
+  position: relative;
+}
+
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+  visibility: ;
 }
 
 #pinIntroduce {

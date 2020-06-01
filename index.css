@@ -123,4 +123,7 @@ li a:hover:not(.active) {
 
 #cloud {
   display: none;
+  background-color: rgb(95, 174, 176);
+  border-radius: 5px;
+  border-style: ridge;
 }

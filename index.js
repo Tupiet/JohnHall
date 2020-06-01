@@ -103,7 +103,7 @@ function selectPin8() {
   if (text.value == "045376219") {
     text.value = "0453762198";
     text.style.display = "none";
-    cloud.style.display = "block";
+    cloud.style.display = "inline-block";
     alert("Hoola");
   } else {
     text.value = "";

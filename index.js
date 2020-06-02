@@ -104,7 +104,7 @@ function selectPin8() {
     text.value = "0453762198";
     text.style.display = "none";
     cloud.style.display = "inline-block";
-    alert("Hoola");
+    alert("¡Pin correcto!\nBienvenido, John Hall.");
   } else {
     text.value = "";
   }

@@ -19,7 +19,15 @@ function selectPin2() {
   var text = document.getElementById("textPass");
 
   if (text.value == "13") {
-    text.value = "132";
+    var text = document.getElementById("textPass");
+    var initial = document.getElementById("initial");
+    var pincode = document.getElementById("pincode");
+    var closed = document.getElementById("closed");
+
+    alert("¡Pin correcto!\nAcceso a archivos privados concedido.");
+    initial.style.display = "none";
+    pincode.style.display = "none";
+    closed.style.display = "block";
   } else {
     text.value = "";
   }
@@ -33,19 +41,5 @@ function selectPin3() {
     text.value = "13";
   } else {
     text.value = "";
-  }
-}
-
-function verifyPinPersonal() {
-  var text = document.getElementById("textPass");
-  var initial = document.getElementById("initial");
-  var pincode = document.getElementById("pincode");
-  var closed = document.getElementById("closed");
-
-  if (text.value == "132") {
-    alert("¡Pin correcto!\nAcceso a archivos privados concedido.");
-    initial.style.display = "none";
-    pincode.style.display = "none";
-    closed.style.display = "block";
   }
 }

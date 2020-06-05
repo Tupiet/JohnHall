@@ -123,6 +123,7 @@ li a:hover:not(.active) {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  transition: 3s;
 }
 
 #pinIntroduce {

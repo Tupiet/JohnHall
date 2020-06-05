@@ -111,6 +111,8 @@ li a:hover:not(.active) {
   left: 50%;
   margin-left: -90px;
   padding: 10px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .tooltiptext::after {
@@ -132,7 +134,7 @@ li a:hover:not(.active) {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-  transition: 3s;
+  opacity: 1;
 }
 
 #pinIntroduce {

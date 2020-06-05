@@ -110,7 +110,7 @@ li a:hover:not(.active) {
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .tooltip {

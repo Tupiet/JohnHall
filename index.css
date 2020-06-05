@@ -104,16 +104,13 @@ li a:hover:not(.active) {
   visibility: hidden;
   position: absolute;
   background-color: rgb(55, 55, 55);
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   width: 180px;
   bottom: 100%;
   left: 50%;
   margin-left: -90px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .tooltip {

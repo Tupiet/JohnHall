@@ -113,6 +113,18 @@ li a:hover:not(.active) {
   padding: 10px;
 }
 
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;

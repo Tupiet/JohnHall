@@ -110,7 +110,7 @@ li a:hover:not(.active) {
 
 .tooltip {
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .tooltip:hover .tooltiptext {

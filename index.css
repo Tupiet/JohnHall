@@ -106,6 +106,10 @@ li a:hover:not(.active) {
   background-color: rgb(55, 55, 55);
   border-radius: 5px;
   color: white;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tooltip {

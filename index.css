@@ -137,6 +137,11 @@ li a:hover:not(.active) {
   opacity: 1;
 }
 
+.tooltip:not(hover) .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+}
+
 #pinIntroduce {
   display: none;
 }

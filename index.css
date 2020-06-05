@@ -138,7 +138,6 @@ li a:hover:not(.active) {
 }
 
 .tooltip:not(hover) .tooltiptext {
-  visibility: hidden;
   opacity: 0;
 }
 

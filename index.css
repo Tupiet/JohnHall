@@ -119,8 +119,8 @@ li a:hover:not(.active) {
   top: 100%;
   /* At the bottom of the tooltip */
   left: 50%;
-  margin-left: -10px;
-  border-width: 10px;
+  margin-left: -5px;
+  border-width: 5px;
   border-style: solid;
   border-color: rgb(55, 55, 55) transparent transparent transparent;
 }

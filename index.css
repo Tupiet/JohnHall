@@ -51,6 +51,10 @@ li a:hover:not(.active) {
   border-radius: 10px;
 }
 
+li a:not(hover) {
+  transition: 1s;
+}
+
 /* Classes and ID */
 .textInici {
   text-align: center;
